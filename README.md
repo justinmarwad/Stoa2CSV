@@ -2,6 +2,26 @@
 
 **Purpose:** A quick script that will convert Stoa postings to a CSV file
 
+## Requirements 
+
+### Tesseract OCR
+
+```bash 
+sudo apt install tesseract-ocr libtesseract-dev -y
+```
+
+### Python Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage 
+
+```bash 
+python stoa2csv.py "<path_to_postings_photo>" "<path_to_output_csv>"
+``` 
+
 # License 
 
 MIT License
